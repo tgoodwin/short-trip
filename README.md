@@ -1,19 +1,17 @@
 # short-trip
-##Dijkstra Short Trip cross the US
+Dijkstra Short Trip cross the US
 
 
 
-##HOW TO RUN THE PROGRAM:
+To run the program:
 
 1. Make sure the directory your programs are in contain the cityxy.txt file and the citypairs.dat file. You can use alternative files for these two files as well, but the data they contain must be identical to that in cityxy.txt and citypairs.java
-
-
 
 2. Type this into the command line (after compiling):
 
 	java DijkstraTest cityxy.txt citypairs.dat
 
-
+##Primary Classes
 
 Dijkstra.java
 
@@ -33,7 +31,7 @@ MapBuilder.java
 
 This class handles the city coordinates data and weighted edge data passed in by the user. It prepares hashtables for use in the Dijkstra class and it creates Vertex and Edge objects for use across both Kruskal and Dijkstra classes.
 
-##Vertex.java
+Vertex.java
 
  This class allows data to be stored in Vertex objects as needed by Dijkstra's algorithm. Each Vertex object holds information containing a city name, coordinates, if it is known in Dijkstra's algorithm. It also contains a distance value and a previous Vertex variable all for Dijkstra's algorithm.
 
