@@ -9,7 +9,7 @@ To run the program:
 
 2. Type this into the command line (after compiling):
 
-	java DijkstraTest cityxy.txt citypairs.dat
+```	java DijkstraTest cityxy.txt citypairs.dat```
 
 ##Primary Classes
 
