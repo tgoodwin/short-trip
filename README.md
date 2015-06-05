@@ -16,7 +16,7 @@ To run the program:
 Dijkstra.java
 
  This class implements Dijkstra's shortest path algorithm. the "path" method runs Dijkstra's algorithm using a user-defined starting vertex. This class
- uses the binary heap priority queue implementation. The class utilizes Weiss's binary heap class.
+ uses a binary heap priority queue implementation.
  NOTE: I have not modified Weiss's code to contain a "decreaseKey" method. Rather, I
  insert every "potential path Vertex" into the heap. If the Vertex is re-encountered with a lower path distance, it will be inserted again but will have a higher priority in the queue. Every Vertex is declared "known" once popped off the stack, therefore the "redundant" or outdated Vertex references in the heap will pop off, but will not be used in the algorithm.
 
