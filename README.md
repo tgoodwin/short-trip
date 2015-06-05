@@ -5,7 +5,7 @@ Dijkstra Short Trip cross the US
 
 To run the program:
 
-1. Make sure the directory your programs are in contain the cityxy.txt file and the citypairs.dat file. You can use alternative files for these two files as well, but the data they contain must be identical to that in cityxy.txt and citypairs.java
+1. Make sure the directory my programs are in contain the cityxy.txt file and the citypairs.dat file. You can use alternative files/maps as well, but the data they contain must be identical in format to cityxy.txt and citypairs.dat
 
 2. Type this into the command line (after compiling):
 
